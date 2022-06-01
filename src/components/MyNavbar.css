@@ -1,0 +1,40 @@
+.navbar {
+  height: 100vh;
+  display: flex;
+}
+
+.navbarMain {
+  background: grey;
+  width: 150px;
+}
+
+.navbarOptional {
+  background: #d63838;
+  width: 200px;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.navItems a {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+
+.navItems a.active {
+  background: #d63838;
+}
+
+.navItems a:hover {
+  background: #d63838;
+}
+
